@@ -1,0 +1,24 @@
+{
+  "name": "s3-document-db",
+  "version": "1.0.0",
+  "description": "aws s3 based document db",
+  "main": "index.js",
+  "repository": "https://github.com/puneetsngh/s3-document-db.git",
+  "author": "Puneet Singh <puneet.fm@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "aws-sdk": "^2.880.0",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "nconf": "^0.10.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "method-override": "^3.0.0"
+  },
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "nodemon --inspect --watch server example/index.js"
+  }
+}
