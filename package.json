@@ -1,6 +1,6 @@
 {
   "name": "s3-document-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "aws s3 based document db",
   "main": "index.js",
   "repository": "https://github.com/puneetsngh/s3-document-db.git",
@@ -19,6 +19,6 @@
   },
   "scripts": {
     "test": "jest --watch",
-    "dev": "nodemon --inspect --watch server example/index.js"
+    "dev": "nodemon --watch server example/index.js"
   }
 }
